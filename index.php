@@ -1,3 +1,3 @@
 <?php
-    print("Hello world");
-    echo "You are using: " $_SERVER['HTTP_USER_AGENT'];
+    print("Hello world! You are using:");
+    echo $_SERVER['HTTP_USER_AGENT'];
